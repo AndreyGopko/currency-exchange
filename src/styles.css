@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex: 1;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome {
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    margin: 10px;
+}
+.instructions {
+    text-align: center;
+    color: #000;
+    margin-bottom: 5px;
+}
+.buttonContent {
+    background-color: #0af;
+    padding: 16px;
+    margin: 10px;
+}
+.footerContainer {
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+.dataContent {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+.topNavigation {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.currency {
+    padding: 10px;
+}
+.date {
+    text-align: center;
+}
